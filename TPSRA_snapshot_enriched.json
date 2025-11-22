@@ -1,0 +1,88 @@
+{
+  "context": {
+    "supplierUrl": "https://vendor.example",
+    "supplierName": "ExampleCo",
+    "serviceName": "ExampleService",
+    "serviceType": "SaaS",
+    "aiUsage": "Explicit",
+    "capturedAt": "2025-11-22T13:29:42.638436Z"
+  },
+  "controls": [
+    {
+      "controlId": "A.9.2.1",
+      "controlName": "User registration and de-registration",
+      "supplierStatus": "Implemented",
+      "serviceStatus": "Implemented"
+    },
+    {
+      "controlId": "AC-2",
+      "controlName": "Account Management",
+      "supplierStatus": "Partially implemented",
+      "serviceStatus": "To be implemented"
+    }
+  ],
+  "evidence": [
+    {
+      "title": "Security Policy",
+      "sourceUrl": "https://example.com/policy.pdf",
+      "filename": "policy.pdf",
+      "excerpt": "Policy excerpt",
+      "capturedAt": "2025-11-22T13:29:42.638436Z",
+      "confidence": "High"
+    }
+  ],
+  "risks": [],
+  "_generated": {
+    "when": "2025-11-22T13:29:42.638436Z",
+    "tool": "build_tpsra_ipad.py"
+  },
+  "mappedControls": [
+    {
+      "original": {
+        "controlId": "A.9.2.1",
+        "controlName": "User registration and de-registration",
+        "supplierStatus": "Implemented",
+        "serviceStatus": "Implemented"
+      },
+      "mapped": {
+        "id": "A.9.2.1",
+        "framework": "ISO/IEC 27001 Annex A",
+        "name": "User registration and de-registration"
+      },
+      "mappingConfidence": "High",
+      "mappingRationale": "Exact ID match",
+      "provenance": [
+        "iso_27001_annex_a.json"
+      ]
+    },
+    {
+      "original": {
+        "controlId": "AC-2",
+        "controlName": "Account Management",
+        "supplierStatus": "Partially implemented",
+        "serviceStatus": "To be implemented"
+      },
+      "mapped": {
+        "id": "AC-2",
+        "framework": "NIST SP 800-53 Rev.5",
+        "name": "Account Management"
+      },
+      "mappingConfidence": "High",
+      "mappingRationale": "Exact ID match",
+      "provenance": [
+        "control_catalogs_full_part2.json"
+      ]
+    }
+  ],
+  "aiOverlayMatches": [
+    {
+      "id": "AI-01",
+      "name": "AI governance and ethical guidelines",
+      "provenance": [
+        "control_catalogs_full_part5.json"
+      ],
+      "rationale": "Snapshot indicates explicit AI usage"
+    }
+  ],
+  "manifestRef": "manifest.json"
+}

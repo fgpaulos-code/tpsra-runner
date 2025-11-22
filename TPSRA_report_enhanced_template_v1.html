@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TPSRA — Report</title>
+<style>
+:root{--primary:#0a3a74;--accent:#0b7be0;--bg:#f4f7fb;--card:#fff;--border:#d8e2ef;--text:#172b4d;--muted:#5b6b82}
+body{font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);margin:0}
+.header{background:linear-gradient(90deg,var(--primary),var(--accent));color:#fff;padding:12px}
+.container{max-width:1100px;margin:18px auto;padding:12px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px;margin-bottom:12px}
+</style>
+</head>
+<body>
+  <div class="header"><h1>TPSRA — Interactive Report</h1></div>
+  <div class="container">
+    <div class="card">
+      <h2>Snapshot</h2>
+      <pre id="snapshot">Load TPSRA_snapshot_enriched.json into this page to populate details.</pre>
+      <button onclick="downloadSnapshot()">Download snapshot JSON</button>
+    </div>
+  </div>
+<script>
+async function downloadSnapshot(){
+  const resp = await fetch('TPSRA_snapshot_enriched.json').catch(()=>null);
+  if(!resp){ alert('No snapshot found in same folder'); return; }
+  const text = await resp.text();
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([text],{type:'application/json'}));
+  a.download = 'TPSRA_snapshot_enriched.json'; a.click();
+}
+</script>
+</body>
+</html>

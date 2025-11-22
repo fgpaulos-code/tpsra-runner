@@ -1,0 +1,50 @@
+{
+  "framework": "NIST SP 800-53 Rev.5 (representative)",
+  "version": "rev5",
+  "families": [
+    {
+      "familyId": "AC",
+      "familyName": "Access Control",
+      "controls": [
+        {
+          "controlId": "AC-1",
+          "controlName": "Access Control Policy and Procedures"
+        },
+        {
+          "controlId": "AC-2",
+          "controlName": "Account Management"
+        },
+        {
+          "controlId": "AC-3",
+          "controlName": "Access Enforcement"
+        },
+        {
+          "controlId": "AC-6",
+          "controlName": "Least Privilege"
+        },
+        {
+          "controlId": "AC-17",
+          "controlName": "Remote Access"
+        }
+      ]
+    },
+    {
+      "familyId": "IA",
+      "familyName": "Identification and Authentication",
+      "controls": [
+        {
+          "controlId": "IA-1",
+          "controlName": "Identification and Authentication Policy and Procedures"
+        },
+        {
+          "controlId": "IA-2",
+          "controlName": "User Identification and Authentication"
+        },
+        {
+          "controlId": "IA-5",
+          "controlName": "Authenticator Management"
+        }
+      ]
+    }
+  ]
+}

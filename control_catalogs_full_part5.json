@@ -1,0 +1,47 @@
+{
+  "framework": "CSA CCM v4.0 and CAIQ (representative)",
+  "ccm": [
+    {
+      "domainId": "IAM",
+      "domainName": "Identity & Access Management",
+      "controls": [
+        {
+          "controlId": "IAM-01",
+          "controlName": "Identity governance and administration"
+        },
+        {
+          "controlId": "IAM-02",
+          "controlName": "Authentication mechanisms and MFA"
+        }
+      ]
+    },
+    {
+      "domainId": "AI",
+      "domainName": "Artificial Intelligence & Model Security (overlay)",
+      "controls": [
+        {
+          "controlId": "AI-01",
+          "controlName": "AI governance and ethical guidelines"
+        },
+        {
+          "controlId": "AI-02",
+          "controlName": "Training data governance and consent"
+        }
+      ]
+    }
+  ],
+  "caiq": {
+    "questions": [
+      {
+        "questionId": "CAIQ-IAM-001",
+        "domain": "IAM",
+        "question": "Describe the authentication mechanisms provided; is multifactor authentication available and enforced for administrative and remote access?"
+      },
+      {
+        "questionId": "CAIQ-AI-001",
+        "domain": "AI",
+        "question": "Do you use AI/ML in your service; provide model inventory, purpose, and associated data flows."
+      }
+    ]
+  }
+}

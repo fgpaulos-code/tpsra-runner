@@ -1,0 +1,16 @@
+{
+  "framework": "SOC Trust Services Criteria (AICPA)",
+  "version": "2017",
+  "criteria": [
+    {
+      "category": "Security",
+      "criteriaId": "CC1.1",
+      "criteriaText": "Control environment and ethics"
+    },
+    {
+      "category": "Security",
+      "criteriaId": "SEC-A.1",
+      "criteriaText": "Access restricted to authorized personnel"
+    }
+  ]
+}

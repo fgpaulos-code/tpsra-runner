@@ -1,0 +1,10 @@
+[
+  {
+    "id": "AI-01",
+    "name": "AI governance and ethical guidelines",
+    "provenance": [
+      "control_catalogs_full_part5.json"
+    ],
+    "rationale": "Snapshot indicates explicit AI usage"
+  }
+]

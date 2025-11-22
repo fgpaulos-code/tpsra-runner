@@ -1,0 +1,60 @@
+{
+  "framework": "ISO/IEC 27001 Annex A",
+  "version": "2013",
+  "controls": [
+    {
+      "controlId": "A.5.1.1",
+      "controlName": "Policies for information security",
+      "controlLink": "https://www.iso.org/standard/54534.html",
+      "citation": "ISO/IEC 27001:2013 A.5.1.1"
+    },
+    {
+      "controlId": "A.5.1.2",
+      "controlName": "Review of the policies for information security",
+      "controlLink": "https://www.iso.org/standard/54534.html",
+      "citation": "ISO/IEC 27001:2013 A.5.1.2"
+    },
+    {
+      "controlId": "A.6.1.1",
+      "controlName": "Information security roles and responsibilities",
+      "controlLink": "https://www.iso.org/standard/54534.html",
+      "citation": "ISO/IEC 27001:2013 A.6.1.1"
+    },
+    {
+      "controlId": "A.6.1.2",
+      "controlName": "Segregation of duties",
+      "controlLink": "https://www.iso.org/standard/54534.html",
+      "citation": "ISO/IEC 27001:2013 A.6.1.2"
+    },
+    {
+      "controlId": "A.6.1.3",
+      "controlName": "Contact with authorities",
+      "controlLink": "https://www.iso.org/standard/54534.html",
+      "citation": "ISO/IEC 27001:2013 A.6.1.3"
+    },
+    {
+      "controlId": "A.6.1.4",
+      "controlName": "Contact with special interest groups",
+      "controlLink": "https://www.iso.org/standard/54534.html",
+      "citation": "ISO/IEC 27001:2013 A.6.1.4"
+    },
+    {
+      "controlId": "A.6.1.5",
+      "controlName": "Information security in project management",
+      "controlLink": "https://www.iso.org/standard/54534.html",
+      "citation": "ISO/IEC 27001:2013 A.6.1.5"
+    },
+    {
+      "controlId": "A.6.2.1",
+      "controlName": "Mobile device policy",
+      "controlLink": "https://www.iso.org/standard/54534.html",
+      "citation": "ISO/IEC 27001:2013 A.6.2.1"
+    },
+    {
+      "controlId": "A.6.2.2",
+      "controlName": "Teleworking",
+      "controlLink": "https://www.iso.org/standard/54534.html",
+      "citation": "ISO/IEC 27001:2013 A.6.2.2"
+    }
+  ]
+}

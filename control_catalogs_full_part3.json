@@ -1,0 +1,57 @@
+{
+  "framework": "FedRAMP (mapped to NIST SP 800-53)",
+  "baselines": {
+    "Low": {
+      "families": {
+        "AC": [
+          "AC-1",
+          "AC-2",
+          "AC-3",
+          "AC-7"
+        ],
+        "AU": [
+          "AU-2",
+          "AU-3",
+          "AU-6"
+        ]
+      }
+    },
+    "Moderate": {
+      "families": {
+        "AC": [
+          "AC-1",
+          "AC-2",
+          "AC-3",
+          "AC-6",
+          "AC-17"
+        ],
+        "AU": [
+          "AU-1",
+          "AU-2",
+          "AU-3",
+          "AU-6"
+        ]
+      }
+    },
+    "High": {
+      "families": {
+        "AC": [
+          "AC-1",
+          "AC-2",
+          "AC-3",
+          "AC-6",
+          "AC-17",
+          "AC-18"
+        ],
+        "AU": [
+          "AU-1",
+          "AU-2",
+          "AU-3",
+          "AU-6",
+          "AU-8",
+          "AU-9"
+        ]
+      }
+    }
+  }
+}
